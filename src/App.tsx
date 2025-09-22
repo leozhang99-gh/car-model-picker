@@ -37,7 +37,7 @@ amplifyClient.queries.askBedrock({
  <div className="app-container">
  <div className="header-container">
  <h1 className="main-header">
- Meet Your Personal
+ Your Personal Mobility
  <br />
  <span className="highlight">Car Model AI</span>
  </h1>
