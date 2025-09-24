@@ -52,8 +52,8 @@ amplifyClient.queries.askBedrock({
  <input
  type="text"
  className="wide-input"
- id="usages"
- name="usages"
+ id="ingredients"
+ name="ingredients"
  placeholder="Usage1, Usage2, Usage3,...etc"
  />
  <button type="submit" className="search-button">
