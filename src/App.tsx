@@ -20,7 +20,7 @@ function App() {
  const formData = new FormData(event.currentTarget);
  const { data, errors } = await
 amplifyClient.queries.askBedrock({
- ingredients: [formData.get("ingredients")?.toString() || ""],
+ usages: [formData.get("usages")?.toString() || ""],
  });
  if (!errors) {
  setResult(data?.body || "No data returned");
@@ -52,8 +52,8 @@ amplifyClient.queries.askBedrock({
  <input
  type="text"
  className="wide-input"
- id="ingredients"
- name="ingredients"
+ id="usages"
+ name="usages"
  placeholder="Usage1, Usage2, Usage3,...etc"
  />
  <button type="submit" className="search-button">

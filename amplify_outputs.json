@@ -68,8 +68,8 @@
           },
           "isRequired": false,
           "arguments": {
-            "ingredients": {
-              "name": "ingredients",
+            "usages": {
+              "name": "usages",
               "isArray": true,
               "type": "String",
               "isRequired": false,
